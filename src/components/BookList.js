@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import { ThemeContext } from '../contexts/ThemeContext';
 
 
-// First method to consume the provider
+
 class BookList extends Component {
+    
+    // First method to consume the provider
     static contextType = ThemeContext;
     
     render() { 

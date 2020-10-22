@@ -7,7 +7,7 @@ class AuthContextProvider extends Component {
         isAuthenticated: false    
     }
     toggleAuth = () => {
-        this.setState({ isAuthenticated: !this.isAuthenticated});
+        this.setState({ isAuthenticated: !this.state.isAuthenticated});
     }
     render() { 
         return ( 
